@@ -3,7 +3,7 @@ html {
 }
 
 header {
-  position: fixed;
+  position: absolute;
   text-align: center;
   background-color: #f0f0f0;
   width: 100%;
