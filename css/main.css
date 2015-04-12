@@ -83,6 +83,9 @@ hr {
     top: 0;
     transform: none;
     -webkit-transform: none;
-    margin: 2rem 0;
+  }
+
+  #wrapper {
+    padding: 3rem 0;
   }
 }
