@@ -2,10 +2,15 @@ html {
   font-size: 16px;
 }
 
+body {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f0f0f0;
+}
+
 header {
   position: absolute;
   text-align: center;
-  background-color: #f0f0f0;
   width: 100%;
   height: 100%;
 }
@@ -19,11 +24,6 @@ header {
 
 .logo {
   width: 390px;
-}
-
-body {
-  font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -69,11 +69,20 @@ hr {
 }
 
 @media screen and (max-width: 800px), screen and (max-height: 700px) {
-    html {
-        font-size: 12px;
-    }
+  html {
+    font-size: 12px;
+  }
 
-    .logo {
-        width: 290px;
-    }
+  .logo {
+    width: 290px;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  #wrapper {
+    top: 0;
+    transform: none;
+    -webkit-transform: none;
+    margin: 2rem 0;
+  }
 }
