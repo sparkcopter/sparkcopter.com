@@ -41,15 +41,14 @@ h2 {
 hr {
   border: 0;
   height: 1px;
-  width: 200px;
+  width: 385px;
   background-color: #ddd;
   margin: 2rem auto;
 }
 
 .button {
-  border: 0;
-  border-radius: 5px;
-  padding: 1.2rem 2.5rem;
+  border-radius: 6px;
+  padding: 1.2rem 2.4rem;
   margin: 0 1rem;
   font-size: 1rem;
   background-color: #758a8e;
@@ -74,6 +73,10 @@ hr {
   }
 
   .logo {
+    width: 290px;
+  }
+
+  hr {
     width: 290px;
   }
 }
